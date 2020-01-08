@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Num Fact App</title>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <h2>Number Facts</h2>
+      </div>
+    </div>
+
+    <div id="main" class="container">
+      <div class="input-container">
+        <h2>Choose a fact type</h2>
+        <form id="checkbox">
+          <label for="trivia">Trivia</label>
+          <input type="radio" name="sortby" id="trivia" value="trivia" checked />
+          <label for="math">Math</label>
+          <input type="radio" name="sortby" id="math" value="math" />
+          <label for="date">Date</label>
+          <input type="radio" name="sortby" id="date" value="date" />
+        </form>
+
+        <div id="input">
+          <input
+            type="number"
+            name="num"
+            id="num"
+            placeholder="Enter Your Number"
+          />
+          <input id="month" type="number" placeholder="Enter A Month" >
+          <input id="btn" type="submit" value="Submit" />
+        </div>
+      </div>
+
+      <!-- <div id="fact">
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum quod
+          error molestias! Ea consectetur corporis adipisci ipsum molestias
+          eligendi doloribus dolores ipsa blanditiis excepturi quos impedit
+          error nulla quam neque odit debitis cupiditate, accusantium mollitia
+          atque hic repellendus qui officiis facilis. Deserunt iste omnis modi
+          laudantium consequatur quas illo sint!
+        </p>
+      </div> -->
+
+      
+    </div>
+    
+    <script src="app.js"></script>
+  </body>
+</html>
